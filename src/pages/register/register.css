@@ -1,0 +1,47 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(197, 42, 42, 0.5),
+    rgba(52, 93, 242, 0.5)), url("https://img.freepik.com/free-photo/mix-cold-colors-water_23-2147763513.jpg?w=2000");
+}
+.registerTitle{
+    font-size: 50px;
+    font-weight: 100;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0 ;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: lightcoral;
+    font-size: 20px;
+}
